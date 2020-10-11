@@ -27,7 +27,7 @@ twitter_username: maaaaa5021
 github_username: machida1205
 
 # Build settings
-theme: minima
+theme: cayman
 plugins:
   - jekyll-feed
 
