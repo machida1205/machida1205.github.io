@@ -23,7 +23,7 @@ email: yusuke.machida.12@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: maaaa5021
+twitter_username: maaaaa5021
 github_username: machida1205
 
 # Build settings
