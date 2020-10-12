@@ -491,15 +491,15 @@ Top page / Key visual area
 }
 
 .kv-item-1 a {
-  background-image: url(/frontend-study/2019/y-machida/02/common/img/keyvisual_001.jpg);
+  background-image: url(/portfolio/common/img/keyvisual_001.jpg);
 }
 
 .kv-item-2 a {
-  background-image: url(/frontend-study/2019/y-machida/02/common/img/keyvisual_002.jpg);
+  background-image: url(/portfolio/common/img/keyvisual_002.jpg);
 }
 
 .kv-item-3 a {
-  background-image: url(/frontend-study/2019/y-machida/02/common/img/keyvisual_003.jpg);
+  background-image: url(/portfolio/common/img/keyvisual_003.jpg);
 }
 
 @media screen and (max-width:767px) {
