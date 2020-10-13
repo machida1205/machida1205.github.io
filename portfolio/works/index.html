@@ -11,10 +11,42 @@
   <link rel="stylesheet" href="/portfolio/common/css/main.css">
 </head>
 <body>
-  <!--#include virtual="/portfolio/common/ssi/loading.html"-->
+  <div class="loader-bg">
+    <div class="loading">yusuke machida</div>
+  </div>
 
   <div class="wrapper">
-    <!--#include virtual="/portfolio/common/ssi/header.html"-->
+    <header class="header">
+      <div class="header-inner">
+        <h1 class="cmn-site-ttl"><a href="/portfolio/index.html">yusuke machida</a></h1>
+        <nav class="gnav">
+          <ul class="gnav-inner">
+            <li class="gnav-item"><a href="/portfolio/about/index.html">about</a></li>
+            <li class="gnav-item"><a href="/portfolio/works/index.html">works</a></li>
+            <li class="gnav-item"><a href="/portfolio/contact/index.html">contact</a></li>
+          </ul>
+        </nav>
+        <div class="gnav-sp">
+          <div class="gnav-sp-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="gnav-sp-inner">
+            <div class="gnav-sp-ttl">
+              <h2 class="cmn-site-ttl">yusuke machida</h2>
+            </div>
+            <nav class="gnav-sp-box">
+              <ul class="gnav-sp-list">
+                <li class="gnav-sp-item"><a href="/portfolio/about/index.html">- about</a></li>
+                <li class="gnav-sp-item"><a href="/portfolio/works/index.html">- works</a></li>
+                <li class="gnav-sp-item"><a href="/portfolio/contact/index.html">- contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
 
     <main class="container">
       <div class="cmn-kv">
@@ -120,6 +152,8 @@
 
   </div>
 
-  <!--#include virtual="/portfolio/common/ssi/footer-script.html"-->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/portfolio/common/js/slick.min.js"></script>
+  <script type="text/javascript" src="/portfolio/common/js/main.js"></script>
 </body>
 </html>
