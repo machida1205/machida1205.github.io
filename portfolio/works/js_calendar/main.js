@@ -1,5 +1,6 @@
 var body = document.getElementById('body');
 
+
 window.onload = function() {
   var current = new Date();
   var year = current.getFullYear();
@@ -43,7 +44,7 @@ function generate_calendar_header(wrapper, year, month) {
 
   var cTitle = document.createElement('div');
   cTitle.className = 'calendar-header__title';
-  var cTitleText = document.createTextNode(year + '年 ' + month + '月');
+  var cTitleText = document.createTextNode(year + '年' + month + '月');
   cTitle.appendChild(cTitleText);
   cHeader.appendChild(cTitle);
 

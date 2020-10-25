@@ -151,6 +151,19 @@ body {
   animation: Gradient 15s ease infinite;
 }
 
+@media screen and (max-width: 767px) {
+  .calendar-header__title {
+    font-size: 24px;
+  }
+
+  .calendar-table th,
+  .calendar-table td {
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
 @keyframes Gradient {
 	0% {
 		background-position: 0% 50%
