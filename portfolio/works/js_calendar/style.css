@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+#calendar {
+  padding-bottom: 50px;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  text-align: center;
+}
+
+.calendar-header__title {
+  font-size: 46px;
+}
+
+.calendar-header__prev,
+.calendar-header__next {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.calendar-header__prev::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border: 0;
+  border-top: solid 2px #fff;
+  border-left: solid 2px #fff;
+  position: absolute;
+  top: 53%;
+  left: -15px;
+  margin-top: -4px;
+  transform: rotate(-45deg);
+}
+
+.calendar-header__next::after {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border: 0;
+  border-top: solid 2px #fff;
+  border-right: solid 2px #fff;
+  position: absolute;
+  top: 53%;
+  right: -15px;
+  margin-top: -4px;
+  transform: rotate(45deg);
+}
+
+.calendar-table {
+  margin: 30px auto 0;
+  border-collapse: collapse;
+}
+
+.calendar-table th,
+.calendar-table td {
+  padding: 15px;
+  font-size: 26px;
+  text-align: center;
+}
+
+.calendar-table .-today {
+  color: red;
+}
+
+.month-1 {
+  background: linear-gradient(-45deg, #a8c0ff, #3f2b96);
+  background-size: 400% 400%;
+  animation: Gradient 15s ease infinite;
+}
+
+.month-2 {
+  background: linear-gradient(-45deg, #91EAE4, #86A8E7, #7F7FD5);
+  background-size: 400% 400%;
+  animation: Gradient 15s ease infinite;
+}
+
+.month-3 {
+  background: linear-gradient(-45deg, #fbc7d4, #9796f0);
+  background-size: 400% 400%;
+  animation: Gradient 15s ease infinite;
+}
+
+.month-4 {
+  background: linear-gradient(-45deg, #FFAFBD, #ffc3a0);
+  background-size: 400% 400%;
+  animation: Gradient 15s ease infinite;
+}
+
+.month-5 {
+  background: linear-gradient(-45deg, #99f2c8, #1f4037);
+  background-size: 400% 400%;
+  animation: Gradient 15s ease infinite;
+}
+
+.month-6 {
+  background: linear-gradient(-45deg, #00B4DB, #0083B0);
+  background-size: 400% 400%;
+  animation: Gradient 15s ease infinite;
+}
+
+.month-7 {
+  background: linear-gradient(-45deg, #22c1c3, #fdbb2d);
+  background-size: 400% 400%;
+  animation: Gradient 15s ease infinite;
+}
+
+.month-8 {
+  background: linear-gradient(-45deg, #F7BB97, #DD5E89);
+  background-size: 400% 400%;
+  animation: Gradient 15s ease infinite;
+}
+
+.month-9 {
+  background: linear-gradient(-45deg, #FFAF7B, #D76D77, #3A1C71);
+  background-size: 400% 400%;
+  animation: Gradient 15s ease infinite;
+}
+
+.month-10 {
+  background: linear-gradient(-45deg, #DBD65C, #5614B0);
+  background-size: 400% 400%;
+  animation: Gradient 15s ease infinite;
+}
+
+.month-11 {
+  background: linear-gradient(-45deg, #F0F2F0, #000C40);
+  background-size: 400% 400%;
+  animation: Gradient 15s ease infinite;
+}
+
+.month-12 {
+  background: linear-gradient(-45deg, #E8CBC0, #636FA4);
+  background-size: 400% 400%;
+  animation: Gradient 15s ease infinite;
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
