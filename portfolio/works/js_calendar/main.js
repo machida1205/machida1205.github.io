@@ -29,7 +29,7 @@ function generate_calendar_header(wrapper, year, month) {
   prevMonth.setMonth(prevMonth.getMonth() - 1);
 
   var cHeader = document.createElement('div');
-  cHeader.className = 'calendar-header';
+  cHeader.className = 'calendar-header js-fadein';
 
   var cPrev = document.createElement('a');
   cPrev.className = 'calendar-header__prev';
@@ -86,7 +86,7 @@ function generate_month_calendar(year, month) {
   }
 
   var cTable = document.createElement('table');
-  cTable.className = 'calendar-table';
+  cTable.className = 'calendar-table js-fadein';
 
   var insertData = '';
   insertData += '<thead>';

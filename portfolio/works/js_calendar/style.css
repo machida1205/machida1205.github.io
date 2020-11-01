@@ -16,6 +16,10 @@ body {
   padding-bottom: 50px;
 }
 
+.js-fadein {
+  animation: Fadein 2s ease 1;
+}
+
 .calendar-header {
   display: flex;
   justify-content: space-between;
@@ -174,4 +178,16 @@ body {
 	100% {
 		background-position: 0% 50%
 	}
+}
+
+@keyframes Fadein {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
 }
